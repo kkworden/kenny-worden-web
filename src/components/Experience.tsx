@@ -29,10 +29,10 @@ interface ExperienceProps extends CompanyLogoProps, CompanyInfoProps {
  */
 const classes = {
   logo: (reverse: boolean): string =>  {
-    return reverse ? "m-6 w-full justify-items-center md:w-2/5 md:justify-items-center" :
-      "m-6 w-full justify-items-center md:w-2/5 md:justify-items-center"
+    return reverse ? "m-6 w-full place-items-center md:w-2/5" :
+      "m-6 w-full place-items-center md:w-2/5"
   },
-  info: "m-6 w-full md:w-3/5 lg:w-2/5 p-6 align-center bg-white justify-items-center",
+  info: "m-6 w-full md:w-3/5 lg:w-2/5 p-6 align-center bg-white justify-center",
   experience: (reverse: boolean): string => {
     return reverse ? "flex flex-col-reverse md:flex-row place-items-center text-center w-full" :
       "flex flex-col md:flex-row place-items-center text-center w-full"
@@ -42,7 +42,7 @@ const classes = {
 function CompanyLogo({ reverse, imageSrc, companyName }: CompanyLogoProps)  {
   return (<div className={classes.logo(reverse)}>
     <Image
-      className="p-6 bg-white"
+      className="p-6 bg-white mx-auto"
       style={{border: "1px solid black"}}
       src={imageSrc}
       alt={companyName}

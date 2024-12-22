@@ -106,7 +106,7 @@ export default function Navbar() {
         </div>
         <div className="md:hidden flex">
           <button className="p-3 bg-amber-100" style={{border: "1px solid black"}} onClick={()=> setIsOpen(!isOpen)}>
-            Menu
+            { isOpen ? "Close" : "Menu" }
           </button>
         </div>
       </nav>
