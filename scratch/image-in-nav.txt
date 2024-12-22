@@ -1,0 +1,8 @@
+        <div className="aspect-square h-full" style={{ position: 'relative' }}>
+          <Image
+            className="kenny-logo"
+            src="/me_big.jpg"
+            alt="Kenny Worden"
+            style={{borderRadius: '50%'}}
+            fill />
+        </div>

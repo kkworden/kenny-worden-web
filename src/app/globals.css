@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Helvetica', sans-serif;
+}
+
+nav {
+  font-family: 'courier', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'courier', sans-serif;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #000000;
+}
+
+.kenny-logo {
+  cursor: pointer;
+}
