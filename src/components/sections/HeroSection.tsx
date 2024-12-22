@@ -30,6 +30,10 @@ export default function HeroSection() {
             This site is hand-designed by me using Next.js, React, and Tailwind CSS :^)
           </p>
           <br />
+          <p>
+            You can view the site's source code <a className="text-amber-500 font-bold hover:underline" href="https://github.com/kkworden/kenny-worden-web">here</a>.
+          </p>
+          <br />
           <SocialBar />
           <SkillRow skills={["6+ YoE", "Backend", "Infra", "SRE", "Full-Stack", "Web", "Android"]} />
         </div>
