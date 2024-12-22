@@ -4,7 +4,7 @@ import SectionHeader from "@/components/SectionHeader";
 
 export default function ResumeSection() {
   return (
-    <section id="resume" className="p-12 bg-slate-50">
+    <section id="resume" className="p-8 bg-slate-50">
       <SectionHeader title="Resume" />
       <div className="flex flex-col items-center justify-center text-center">
         <p>

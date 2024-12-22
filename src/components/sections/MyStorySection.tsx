@@ -3,7 +3,7 @@ import SectionHeader from "@/components/SectionHeader";
 
 export default function MyStorySection() {
   return (
-    <section id="my-story" className="p-12 ">
+    <section id="my-story" className="p-8">
       <SectionHeader title="My Story"/>
       <div className="flex">
         <div className="w-0 lg:w-1/5"></div>

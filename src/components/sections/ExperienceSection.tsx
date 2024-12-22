@@ -61,7 +61,7 @@ const EXPERIENCES: Array<ExperienceInformation> = [
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="p-12 bg-slate-50">
+    <section id="experience" className="p-8 bg-slate-50">
       <SectionHeader title="Experience" />
       <div className="flex flex-col items-center justify-center text-center">
         {EXPERIENCES.map(({ imageSrc, companyName, positions }, i) => (

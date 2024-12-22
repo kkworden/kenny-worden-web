@@ -4,7 +4,7 @@ import Image from "next/image";
 const socialSize: number = 35;
 
 export default function SocialBar() {
-  return (<div className="flex space-x-4">
+  return (<div className="flex space-x-4 items-center">
     <a href="https://linkedin.com/in/kenneth-worden">
       <Image src="/linkedin_social.svg" height={socialSize} width={socialSize} alt="LinkedIn"/>
     </a>
