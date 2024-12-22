@@ -21,9 +21,9 @@ export default function HeroSection() {
           <h1 className="font-bold text-5xl mb-4 mt-4">Kenny Worden</h1>
           <Break relaxCenter={true} />
           <p>
-            Hi! My name is Kenny Worden. I am a <strong>senior backend engineer</strong> with a strong
+            Hi! My name is Kenny Worden. I am a <strong>senior software engineer</strong> with a strong
             background in web and mobile application development. This is my site where
-            you can learn a little more about who I am.
+            you can learn a little more about who I am as a developer.
           </p>
           <br />
           <p>
@@ -31,7 +31,7 @@ export default function HeroSection() {
           </p>
           <br />
           <p>
-            You can view the site's source code <a className="text-amber-500 font-bold hover:underline" href="https://github.com/kkworden/kenny-worden-web">here</a>.
+            You can view the site&apos;s source code <a className="text-amber-500 font-bold hover:underline" href="https://github.com/kkworden/kenny-worden-web">here</a>.
           </p>
           <br />
           <SocialBar />
