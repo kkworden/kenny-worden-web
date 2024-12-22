@@ -23,7 +23,7 @@ export default function MyStorySection() {
             was my first introduction to systems administration. I made many custom game
             modes, including a Hunger Games, Prison, Riot, and Team Deathmatch mod. One
             fateful night, my server was getting a lot of attention on a Twitch stream, and
-            the server, which was running from my parents' basement, was DDoS'd! That was
+            the server, which was running from my parents&apos; basement, was DDoS&apos;d! That was
             my first step into cloud computing.
           </p>
           <br/>
@@ -40,7 +40,7 @@ export default function MyStorySection() {
           </p>
           <br/>
           <p>
-            I am a mission-driven engineer, so there is nothing that I won't work on. My personal
+            I am a mission-driven engineer, so there is nothing that I won&apos;t work on. My personal
             experience in web and mobile application development, along with my infrastructure/SRE
             professional experience, means that I can get any problem done.
           </p>
