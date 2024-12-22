@@ -12,9 +12,9 @@ export default function HeroSection() {
           <Image
             src="/me_big.jpg"
             alt="Kenny Worden"
-            style={{borderRadius: '50%'}}
-            width={280}
-            height={280}
+            style={{border: "1px solid black", borderRadius: '50%'}}
+            width={270}
+            height={270}
             />
         </div>
         <div className="justify-items-center mt-4 md:mt-0 md:w-3/5 md:justify-items-start">
