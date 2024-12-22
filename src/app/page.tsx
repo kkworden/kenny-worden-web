@@ -6,7 +6,7 @@ import SkillsSection from "@/components/sections/SkillsSection";
 
 export default function Home() {
   return (
-    <div className="pt-16">
+    <div className="pt-20">
       <HeroSection />
       <ExperienceSection />
       <SkillsSection />

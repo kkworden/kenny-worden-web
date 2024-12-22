@@ -4,7 +4,7 @@ import SectionHeader from "@/components/SectionHeader";
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="p-8">
+    <section id="skills" className="p-6">
       <div className="flex">
         <div className="w-0 lg:w-1/5"></div>
         <div className="w-full lg:w-3/5 bg-white">

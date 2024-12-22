@@ -6,7 +6,7 @@ import SocialBar from "@/components/SocialBar";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="p-8">
+    <section id="home" className="p-6">
       <div className="flex flex-col items-center justify-center text-center md:flex-row md:justify-start md:text-left md:space-x-6">
         <div className="flex justify-center items-center md:w-1/2">
           <Image
