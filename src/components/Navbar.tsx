@@ -89,7 +89,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="w-full h-16 bg-slate-100 shadow fixed">
+    <header className="w-full h-16 bg-slate-100 shadow fixed z-10">
       <nav className="justify-between items-center flex h-full w-full p-2">
         <div className="p-4 space-x-6">
           <Link href="/">kennyworden.dev</Link>

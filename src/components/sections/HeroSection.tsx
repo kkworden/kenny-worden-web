@@ -19,7 +19,7 @@ export default function HeroSection() {
         </div>
         <div className="justify-items-center mt-4 md:mt-0 md:w-3/5 md:justify-items-start">
           <h1 className="font-bold text-5xl mb-4 mt-4">Kenny Worden</h1>
-          <Break />
+          <Break relaxCenter={true} />
           <p>
             Hi! My name is Kenny Worden. I am a <strong>senior backend engineer</strong> with a strong
             background in web and mobile application development. This is my site where
