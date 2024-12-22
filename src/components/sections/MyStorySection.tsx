@@ -60,7 +60,7 @@ export default function MyStorySection() {
             dealt with attacks, recovered from data breaches (R.I.P. Capsule), ran user-impacting
             incidents, but I have also prototyped new technology (Video Call) and built out
             awesome user experiences. Really, the only thing I don&apos;t know at this point is
-            iOS, but I'm willing to learn anything!
+            iOS, but I&apos;m willing to learn anything!
           </p>
         </div>
         <div className="w-0 lg:w-1/5"></div>
