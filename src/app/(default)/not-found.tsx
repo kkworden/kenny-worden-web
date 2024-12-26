@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="font-bold text-5xl mb-4 mt-8">404 - Not found</h1>
       <Break/>
       <p>
-        Whoops! You may want to go <Link className="underline" href="/">back to the home page</Link>.
+        Whoops! You may want to go <Link className="underline" href="/public">back to the home page</Link>.
       </p>
     </div>
   );

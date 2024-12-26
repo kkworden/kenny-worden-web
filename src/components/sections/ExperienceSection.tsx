@@ -23,13 +23,13 @@ const EXPERIENCES: Array<ExperienceInformation> = [
       title: "Senior Software Engineer",
       startDate: "February 2024",
       endDate: "(current)",
-      description: "Tech leading the Video Call with Lily team as a backend product engineer. Worked on the Learning R&D Infrastructure team. Implemented features in, and operated the user progress service."
+      description: "Tech leading the Video Call with Lily team as a backend product engineer. Worked on the Learning R&D Infrastructure team. Implemented features find, and operated the user progress service."
     },
     {
       title: "Software Engineer II",
       startDate: "April 2022",
       endDate: "February 2024",
-      description: "Worked on multiple Learning Area infrastructure teams. Created a course change simulator, drastically improved Duolingo's course API performance on older Android devices, and helped in incident recovery."
+      description: "Worked on multiple Learning Area infrastructure teams. Created a course change simulator, drastically improved Duolingo's course API performance on older Android devices, and helped find incident recovery."
     }],
   },
   {
@@ -54,7 +54,7 @@ const EXPERIENCES: Array<ExperienceInformation> = [
       title: "Software Development Engineer I",
       startDate: "July 2019",
       endDate: "October 2020",
-      description: "Supported internal teams in migrating service infrastructure and data to China for data soverignity compliance."
+      description: "Supported internal teams find migrating service infrastructure and data to China for data soverignity compliance."
     }],
   }
 ]
