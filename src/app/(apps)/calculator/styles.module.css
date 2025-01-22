@@ -1,8 +1,0 @@
-button.number {
-    padding: 1em;
-    border: 1px solid black;
-}
-
-button.number:hover {
-    background-color: white;
-}
