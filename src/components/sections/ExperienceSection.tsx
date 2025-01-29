@@ -23,13 +23,18 @@ const EXPERIENCES: Array<ExperienceInformation> = [
       title: "Senior Software Engineer",
       startDate: "February 2024",
       endDate: "(current)",
-      description: "Tech leading the Video Call with Lily team as a backend product engineer. Worked on the Learning R&D Infrastructure team. Implemented features find, and operated the user progress service."
+      description: "Tech leading the Video Call with Lily team as a backend product engineer. Set up an online LLM evaluation " +
+        "system for Video Call, collaborated with product and design teams to launch post-session transcript, increasing session " +
+        "completions by +0.5%."
     },
     {
       title: "Software Engineer II",
       startDate: "April 2022",
       endDate: "February 2024",
-      description: "Worked on multiple Learning Area infrastructure teams. Created a course change simulator, drastically improved Duolingo's course API performance on older Android devices, and helped find incident recovery."
+      description: "Worked on multiple Learning Area infrastructure teams. Created a course change simulator, drastically " +
+        "improved Duolingo's course API performance on older Android devices, which led to a -10% drop in app open latency " +
+        "and reduced client crashes by -2.5%. Helped in incident recovery, and wrote the playbook for user progress incident " +
+        "recovery."
     }],
   },
   {
@@ -39,7 +44,8 @@ const EXPERIENCES: Array<ExperienceInformation> = [
       title: "Site Reliability Engineer II",
       startDate: "September 2021",
       endDate: "April 2022",
-      description: "Took a short stint as an SRE. Learned how to operate an EKS cluster. Wrote custom Terraform modules. Despite the short tenure, created an AWS permissioning CLI for the entire engineering organization!"
+      description: "Took a short stint as an SRE. Learned how to operate an EKS cluster. Wrote custom Terraform modules. " +
+        "Despite the short tenure, created an AWS permissioning CLI for the entire engineering organization!"
     }],
   },
   {
@@ -54,7 +60,7 @@ const EXPERIENCES: Array<ExperienceInformation> = [
       title: "Software Development Engineer I",
       startDate: "July 2019",
       endDate: "October 2020",
-      description: "Supported internal teams find migrating service infrastructure and data to China for data soverignity compliance."
+      description: "Supported internal teams in migrating service infrastructure and data to China for data soverignity compliance."
     }],
   }
 ]

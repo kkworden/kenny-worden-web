@@ -17,7 +17,7 @@ export default function SkillsSection() {
           <br/>
           <h2 className="text-xl">Frameworks</h2>
           <SkillRow skills={[
-            "Spring", "Django", "Flask", "GraphQL", "Rails", "Node.js", "React", "Redux", "Android SDK", "Angular", "Reactive (RxJava, Reactor)", "JUnit"
+            "Spring", "Next.js", "Django", "Flask", "GraphQL", "Rails", "Node.js", "React", "Redux", "Android SDK", "Angular", "Reactive (RxJava, Reactor)", "JUnit"
           ]}/>
           <br/>
           <br/>
@@ -30,6 +30,12 @@ export default function SkillsSection() {
           <h2 className="text-xl">Infrastructure</h2>
           <SkillRow skills={[
             "Docker", "Terraform", "Kubernetes", "Redis", "Helm", "Prometheus", "OpenTelemetry", "JVM", "Honeycomb", "Jenkins", "Postgres", "Sentry", "MySQL", "Airflow", "Gradle", "Protobuf"
+          ]}/>
+          <br/>
+          <br/>
+          <h2 className="text-xl">LLM</h2>
+          <SkillRow skills={[
+            "Evaluations", "OpenAI Realtime API", "GPT 4o", "GPT 3.5 Turbo", "Prompt Engineering", "Arize", "HumanLoop"
           ]}/>
         </div>
         <div className="w-0 lg:w-1/5"></div>
